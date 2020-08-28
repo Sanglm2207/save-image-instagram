@@ -30,7 +30,8 @@ async function main(){
         fs.mkdirSync(resultFolder);
     }
 
-    const instaUrl ='https://www.instagram.com/girlsfromasiatoeurope/';
+    // const instaUrl ='https://www.instagram.com/girlsfromasiatoeurope/';
+    const instaUrl ='https://www.instagram.com/khanhngoc_99_/';
     const images = await getImagesFromPage(instaUrl);
 
     
